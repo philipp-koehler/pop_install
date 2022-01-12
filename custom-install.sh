@@ -47,6 +47,7 @@ ainstall+=("code")	# Visual Studio Code
 ainstall+=("mc")	# Midnight Commander
 ainstall+=("lyx")	# LyX
 ainstall+=("texlive")	# TeXLive, should come with LyX
+ainstall+=("unattended-upgrades")   # Unattended upgrades
 # ainstall+=()
 
 # Install programs in ainstall
