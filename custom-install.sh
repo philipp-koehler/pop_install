@@ -48,12 +48,15 @@ ainstall+=("mc")	# Midnight Commander
 ainstall+=("lyx")	# LyX
 ainstall+=("texlive")	# TeXLive, should come with LyX
 ainstall+=("unattended-upgrades")   # Unattended upgrades
-ainstall+=("rclone") # RClone
 # ainstall+=()
 
 # Install programs in ainstall
 
 sudo apt install ${ainstall[@]} -y
+
+# Install the latest rclone version
+
+curl https://rclone.org/install.sh | sudo bash
 
 # Get the latest Julia version, IMPORTANT: make sure it is the latest!
 
