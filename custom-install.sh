@@ -33,6 +33,7 @@ finstall+=("flathub org.blender.Blender")	# Blender
 finstall+=("org.inkscape.Inkscape")		# Inkscape
 finstall+=("org.texstudio.TeXstudio")		# TeXStudio
 finstall+=("io.github.peazip.PeaZip")		# PeaZip
+finstall+=("com.github.tchx84.Flatseal")  # Flatseal
 # finstall+=()
 
 # Install programs in finstall
